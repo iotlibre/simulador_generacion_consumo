@@ -1,0 +1,2 @@
+En este directorio se guardan los logs de eventos
+
