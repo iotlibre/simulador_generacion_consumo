@@ -1,5 +1,14 @@
-# **Explicación del código de simulación de consumos y generación**
-En el presente texto se explican las características, funcionamiento y el código en sí que están recogidos en este repositorio de github: 
+# **Explicación y licencia del código de simulación de consumos y generación**
+
+La licencia del presente programa es GPL v3:
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+Una vez indicada la licencia, se procede a la explicación en este texto de las características, del funcionamiento y del código que están recogidos en este repositorio de github: 
 
 [simulador_generacion_consumo](https://github.com/iotlibre/simulador_generacion_consumo)
 
