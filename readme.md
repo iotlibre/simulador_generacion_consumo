@@ -50,18 +50,3 @@ En la línea 89 del script:
 *envioContenido('63a77c6c080db2bb/simulador/valores', row, "localhost", "iotlibre", "Contrasena")*
 
 Hay que modificar la primera variable (en el código donde pone '63a77c6c080db2bb/simulador/valores') por el topic que se quiere poner, modificar "localhost" por el nombre del servidor, "iotlibre" por el usuario y "Contrasena" por la contraseña de acceso al servidor. El topic será el nombre que se haya puesto más un número, que se le asigna desde uno hasta n donde n es el número de columnas con datos.
-
-Con esta explicación el código estaría preparado para poder funcionar. Sin embargo se hará una explicación más en profundidad explicando algunos puntos que pueden ser de interés.
-
-Hay tres variables al comienzo:
-
-    intervs = 10
-    intervm = 0
-    intervh = 0
-
-Estas variables permiten modificar el tiempo que tarda el programa para comparar la hora actual con la hora de la hoja de datos.
-
-Por otro lado, en la carpeta de ./logs/ se pueden ver los archivos que recogen las simulaciones que se han lanzado y las horas y valores enviados así como un resumen, en caso de fallo del código, de las causas de fallo.
-
-## **4. Conclusiones**
-El código actual permite el envío a través de un servidor MQTT de la información deseada con el topic que se indique con una actualización periódica en el envío de la información que se le facilita al script y de manera estable.
